@@ -1,0 +1,4 @@
+interface:
+  display_name: "Multi Agent"
+  short_description: "Plan and constrain sub-agent tasks"
+  default_prompt: "Use this skill to draft a scoped multi-agent task brief with role, context, permissions, ownership, output format, and stop conditions."
