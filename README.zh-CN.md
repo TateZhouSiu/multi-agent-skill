@@ -29,6 +29,17 @@ skills/multi-agent/
 
 Codex 本地安装时，复制到本地 skills 目录后重启 agent。
 
+## 运行环境
+
+这个 skill 只有 Markdown 规则，没有操作系统级运行依赖。只要宿主 agent 支持本地 skills，macOS、Linux、WSL2 和 Windows 都可以使用。
+
+模型建议：
+
+- 简单 brief 编写，普通 coding model 就够。
+- 安全审查、架构探索、长任务实现或多 agent 协作，建议使用更强的 reasoning model。
+- 作者较重的工作流里，已验证画像是 Codex 风格 agent mode、GPT-5.5 级别 reasoning model，并在可用时使用 `high` 或 `xhigh` reasoning。
+- 这个 skill 本身不要求多模态；只有被委派任务涉及图片、截图或视觉产物时，才需要多模态模型。
+
 ## 什么时候用
 
 - 只读探索

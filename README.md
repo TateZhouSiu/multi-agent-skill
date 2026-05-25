@@ -29,6 +29,17 @@ skills/multi-agent/
 
 For Codex-style local installation, copy it into your local skills directory and restart the agent.
 
+## Runtime Fit
+
+This skill is Markdown-only and has no OS-specific runtime dependency. It works on macOS, Linux, WSL2, and Windows as long as the host agent supports local skills.
+
+Model guidance:
+
+- A normal coding model is enough for simple brief drafting.
+- Use a stronger reasoning model for security review, architecture exploration, long-horizon implementation, or multi-agent coordination.
+- For the author's heavier workflows, the known-good profile is Codex-style agent mode with a GPT-5.5-class reasoning model and `high` or `xhigh` reasoning when available.
+- This skill does not require multimodal input unless the delegated task itself involves images, screenshots, or visual artifacts.
+
 ## When To Use
 
 Use it for:

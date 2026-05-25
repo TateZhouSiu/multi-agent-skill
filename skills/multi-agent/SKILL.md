@@ -11,6 +11,12 @@ Use this skill to turn a user goal into a bounded agent brief. The brief must ma
 
 Do not spawn child agents just because this skill is active. Follow the active system/developer rules for whether delegation is allowed. If delegation is not allowed, use the same brief structure for your own plan, handoff, or review notes.
 
+## Runtime Fit
+
+This skill is Markdown-only and has no OS-specific runtime dependency. A normal coding model can draft simple briefs. Use a stronger reasoning model for security review, architecture exploration, long-horizon implementation, or multi-agent coordination.
+
+Author-known-good profile for heavier workflows: Codex-style agent mode, GPT-5.5-class reasoning model, and `high` or `xhigh` reasoning when available. Multimodal input is only needed when the delegated task itself involves images, screenshots, or visual artifacts.
+
 ## Workflow
 
 1. Identify the task class: exploration, implementation, security review, verification, or handoff.
