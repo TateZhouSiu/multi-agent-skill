@@ -40,6 +40,10 @@ Codex 本地安装时，复制到本地 skills 目录后重启 agent。
 - 作者较重的工作流里，已验证画像是 Codex 风格 agent mode、GPT-5.5 级别 reasoning model，并在可用时使用 `high` 或 `xhigh` reasoning。
 - 这个 skill 本身不要求多模态；只有被委派任务涉及图片、截图或视觉产物时，才需要多模态模型。
 
+## Smoke Check
+
+复制 `skills/multi-agent/` 到本地 skills 目录并重启宿主 agent 后，可以让它为一个只读探索任务起草 bounded brief。若宿主环境包含 Codex skill validator，该目录也应通过 `quick_validate.py`。
+
 ## 什么时候用
 
 - 只读探索

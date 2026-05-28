@@ -40,6 +40,10 @@ Model guidance:
 - For the author's heavier workflows, the known-good profile is Codex-style agent mode with a GPT-5.5-class reasoning model and `high` or `xhigh` reasoning when available.
 - This skill does not require multimodal input unless the delegated task itself involves images, screenshots, or visual artifacts.
 
+## Smoke Check
+
+After copying `skills/multi-agent/` into a local skills directory, restart the host agent and ask it to draft a bounded brief for a read-only exploration task. If the host environment includes the Codex skill validator, the folder should also pass `quick_validate.py`.
+
 ## When To Use
 
 Use it for:
